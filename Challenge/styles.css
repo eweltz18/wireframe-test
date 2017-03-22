@@ -1,0 +1,22 @@
+.title {
+	text-align: center;
+	font-size: 24px;
+	padding: 40px 0 40px 0;
+}
+
+#content {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.galleryImg {
+	width: 33.33%;
+	height: 300px;
+	vertical-align: top;
+	font-size: 0; 
+	/* font-size: 0; is another way of forcing items to be on the same line instead of putting the ending </div> on the same line as the next opening <div> */
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	display: inline-block;
+}

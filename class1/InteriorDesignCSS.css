@@ -1,0 +1,155 @@
+
+body {
+	color: #999;
+	font-family: arial;
+	font-weight: lighter;
+	font-size: 15px;
+	margin: 0 auto;
+}
+
+h3 {
+	color: black;
+	font-size: 20px;
+	font-style: italic;
+	padding-left: 50px;
+	padding-right: 50px;
+	position: center;
+	font-weight: lighter;
+	padding-top: 10px;
+	margin-bottom: 10px;
+}
+
+h2 {
+	font-family: 'Arapey',Georgia,serif;
+	font-size: 30px;
+	font-style: italic;
+	padding-left: 50px;
+	padding-right: 50px;
+	position: center;
+	font-weight: lighter;
+}
+
+h1 {
+	text-align: center;
+	width: 100%;
+	
+}
+h4 {
+	vertical-align: top;
+	padding-left: 40px;
+	padding-right: 20px;
+	margin: 0 auto;
+
+}
+
+.top {
+	padding-top: 100px;
+	padding-bottom: 150px;
+	width: 100%;
+	background: fixed;
+	background-color: #c1bbb2;
+	position: fixed;
+	z-index: -1;
+	margin-top: -250px;
+
+}
+
+.row {
+	background-color: white;
+	width: 100%;
+	height: 400px;
+	margin: 0 auto;
+	margin-top: 250px;
+}
+
+.left {
+	width: 50%;
+	display: inline-block;
+	height: 400px;
+	vertical-align: top;
+}
+
+.right {
+	width: 50%;
+	display: inline-block;
+	height: 400px;
+}
+
+.heading {
+	background-color: white;
+	width: 35%;
+	vertical-align: center;
+	text-align: center;
+	margin-left: 30%;
+	margin-top: 160px;
+	height: 80px; 
+}
+
+.img1 {
+	background: url("thouse.jpg") no-repeat center center;
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
+}
+.img2 {
+	background: url("manorhouse.jpg") no-repeat center center;
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
+}
+.img3 {
+	background: url("MajorcaThumb.jpg") no-repeat center center;
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
+}
+.img4 {
+	background: url("cottage.jpg") no-repeat center center;
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
+}
+.img5 {
+	background: url("chelap.jpg") no-repeat center center;
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
+}
+.img6 {
+	background: url("Mayfair.jpg") no-repeat center center;
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
+}
+.img7 {
+	background: url("pied.jpg") no-repeat center center;
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
+}
+@media screen and (max-width: 850px){
+	.left {
+		width: 100%;
+	}
+	.right {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 1000px){
+	h3 {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+	h4 {
+		padding-left: 22px;
+	}
+}
+

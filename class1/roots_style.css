@@ -1,0 +1,244 @@
+body {
+	background-color: white;
+	font-size: 16px;
+	margin: 0;
+}
+
+ul {
+	list-style: none;
+	padding-top: 30px;
+	text-decoration: none;
+}
+a {
+	color: orange;
+	text-decoration: none;
+}
+li {
+	display: inline-block;
+	width: 20%;
+	text-align: center;
+	font-family: Arial;
+	font-weight: bold; 
+	padding: 10px, 0px, 10px, 0px;
+}
+
+.nav-bar {
+	background-color: white;
+	margin: 0;
+	position: fixed;
+	width: 100%;
+}
+
+.image-top {
+	width: 300px;
+	padding-top: 100px;
+	padding-bottom: 20px;
+	display: block;
+	margin: 0 auto;
+	}
+
+.food-img {
+	width: 80%;
+	padding-top: 20px;
+	padding-bottom: 50px;
+	margin: 0 auto;
+	display: block;
+	}
+
+.about-title {
+	color: orange;
+	text-align: center;
+	font-weight: bold;
+	font-size: 45px;
+	font-family: arial;
+}
+.part1 {
+	display: inline-block;
+}
+.top-left {
+	width: 30%;
+	border: 5px solid white;
+	border-radius: 60%;
+	padding-right: 50px;
+	padding-left: 50px;
+}
+.top-right {
+	width: 50%;
+	text-align: left;
+	font-weight: bold;
+	font-family: arial;
+	display: inline-block;
+	vertical-align: top;
+}
+.natural {
+	color: black;
+	text-decoration-style: none;
+	width: 80%;
+	text-align: left;
+	font-weight: normal;
+}
+.part2 {
+	display: inline-block;
+}
+.bottom-left {
+	width: 35%;
+	text-align: left;
+	font-weight: bold;
+	font-family: arial;
+	vertical-align: top;
+	padding-left: 100px;
+	display: inline-block;
+}
+.healthy {
+	color: black;
+	text-decoration-style: none;
+	width: 90%;
+	text-align: left;
+	font-weight: normal;
+	display: inline-block;
+}
+.bottom-right {
+	width: 30%;
+	border: 5px solid white;
+	border-radius: 60%;
+	padding-left: 50px;
+	padding-right: 50px;
+	display: inline-block;
+	margin: 0 auto;
+}
+.menu {
+	background-color: orange;
+	color: white;
+	text-align: center;
+	font-weight: bold;
+	font-family: arial;
+	padding-bottom: 100px;
+	padding-top: 50px;
+	margin: 0 auto;
+	visibility: hidden;
+}
+.bottom {
+	width: 25%;
+	display: inline-block;
+}
+.bottom-menu {
+	color: white;
+	font-family: arial;
+	display: inline-block;
+}
+.jefe{
+	text-align: center;
+	width: 25%;
+	display: inline-block;
+}
+.roots{
+	text-align: center;
+	width: 25%;
+	display: inline-block;
+	}
+.adobo{
+	text-align: center;
+	width: 25%;
+	display: inline-block;
+}
+
+.location-wrapper {
+	background-color: black;
+	margin-top: 0;
+	padding-bottom: 50px;
+}
+
+.location-title {
+	color: white;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	margin: 0;
+}
+
+
+
+.locationimg {
+	width: 33.3%;
+	height: 350px;
+	display: inline-block;
+	background-color: orange;
+	position: relative;
+
+}
+
+.img1 {
+	    background: url("charlottesville.jpg") no-repeat center center;
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
+}
+
+.img2 {
+	    background: url("nyc.jpg") no-repeat center center;
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
+}
+
+.img3 {
+	    background: url("sf.jpg") no-repeat center center;
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
+}
+
+.pic-title {
+	position: absolute;
+	color: white;
+	font-weight: bold;
+	bottom: 10px;
+	left: 10px;
+	font-size: 20px;
+	padding: 10px;
+	background-color: rgba(0, 0, 0, .5);
+}
+
+@media screen and (max-width: 650px) {
+	.about-title {
+		font-size: 30px;
+	}
+}
+@media screen and (max-width: 550px) {
+
+	.bottom-right {
+		width: 80%;
+	}
+	.top-right {
+		width: 80%;
+	}
+	.bottom-left h2 {
+		width: 80%;
+		padding: 0;
+	}
+	.bottom-right h2 {
+		width: 80%;
+		padding: 0;
+}
+
+@media screen and (max-width: 500px) {
+	.healthy h2,
+	.natural h2 {
+		padding-top: : 20px;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.bottom-menu h1,
+	.bottom h1 {
+		padding-top: : 20px;
+	}
+}
+
+
+
+
